@@ -1,0 +1,38 @@
+.signup_bg {
+   margin-top: 2rem;
+   height: 82vh;
+   width: 85vh;
+   
+   
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-profile-picture-icon {
+    border: 2px solid gray;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 10rem;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 10px;
+    color: rgb(241, 255, 50);
+    cursor: pointer;
+    z-index: 99;
+    background-color: rgb(224, 46, 46);
+
+}
